@@ -1,0 +1,4 @@
+volume_min: 7
+volume_max: 9
+volume_factor: 10
+price_meet: 1000
