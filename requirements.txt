@@ -1,0 +1,4 @@
+numpy==1.26.4
+ortools==9.9.3963
+pandas==2.2.2
+PyYAML==6.0.1
