@@ -33,23 +33,23 @@ Let's imagine that you and I work in a fund to support animal shelters. We work 
 
 ## Solving the problem.
 To solve the problem, we need to create a system of linear equations:  
-1. $ \sum_{i=1}^n p_i b_i  => max$  
+1. $\sum_{i=1}^n p_i b_i  => max$  
 where $p$ - convenience_value  
 and $b$ - int variable that takes a value from 0 to 1. Essentially showing whether to take a certain product or not
 
-2. $ \sum_{i=1}^n v_i b_i \geq 7$ and $ \sum_{i=1}^n v_i b_i \leq 9$  
+2. $\sum_{i=1}^n v_i b_i \geq 7$ and $\sum_{i=1}^n v_i b_i \leq 9$  
 where $v$ - product_volume
 
-3. $ \sum_{i=1}^n \omega_i b_i = 1000$  
+3. $\sum_{i=1}^n \omega_i b_i = 1000$  
 where $\omega$ - product_price
 
-4. $ \sum_{i=1}^n f_i b_i \geq k$ and $ \sum_{i=1}^n f_i b_i \leq j$  
+4. $\sum_{i=1}^n f_i b_i \geq k$ and $\sum_{i=1}^n f_i b_i \leq j$  
 where $f$ - food products, and $k$, $j$ - The required quantity interval
 
-5. $ \sum_{i=1}^n m_i b_i \geq k$ and $ \sum_{i=1}^n m_i b_i \leq j$  
+5. $\sum_{i=1}^n m_i b_i \geq k$ and $\sum_{i=1}^n m_i b_i \leq j$  
 where $m$ - medicine products
 
-6. $ \sum_{i=1}^n \theta_i b_i \geq k$ and $ \sum_{i=1}^n \theta_i b_i \leq j$  
+6. $\sum_{i=1}^n \theta_i b_i \geq k$ and $\sum_{i=1}^n \theta_i b_i \leq j$  
 where $\theta$ - supplies products
 
 ## Run script
